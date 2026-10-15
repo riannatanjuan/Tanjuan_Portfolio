@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Rianna Joryn L. Tanjuan, a third-year BSIT student at Bulacan State University.">
+
+    <title>Rianna Joryn L. Tanjuan | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Bebas+Neue&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+        <div class="container header__inner">
+            <a href="#about" class="brand">Rianna Tanjuan</a>
+
+            <nav id="site-nav" class="nav" aria-label="Main navigation">
+                <ul class="nav__list">
+                    <li><a class="nav__link" href="#about">About</a></li>
+                    <li><a class="nav__link" href="#skills">Skills</a></li>
+                    <li><a class="nav__link" href="#projects">Projects</a></li>
+                    <li><a class="nav__link" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__actions">
+                <button id="theme-toggle" class="icon-btn" type="button" aria-label="Switch to light mode">
+                    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                        <circle cx="12" cy="12" r="4"/>
+                        <path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6l1.4 1.4M17 17l1.4 1.4M5.6 18.4L7 17M17 7l1.4-1.4"/>
+                    </svg>
+
+                    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                        <path d="M20 14.5A8 8 0 019.5 4a8 8 0 1010.5 10.5z"/>
+                    </svg>
+                </button>
+
+                <button id="menu-toggle" class="icon-btn menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+                    <span class="menu-btn__bar"></span>
+                    <span class="menu-btn__bar"></span>
+                    <span class="menu-btn__bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+
+        <section id="about" class="hero" aria-labelledby="hero-title">
+            <p class="hero__bigtext" aria-hidden="true">Portfolio</p>
+
+            <div class="container hero__inner">
+                <div class="hero__text">
+                    <p class="script">Hello, I'm</p>
+
+                    <h1 id="hero-title" class="hero__name">Rianna Joryn L. Tanjuan</h1>
+
+                    <p>
+                        Hi! I’m a third-year BSIT student specializing in Web and Mobile
+                        Application Development (WMAD) at Bulacan State University. I’m
+                        passionate about designing and developing user-friendly websites and
+                        mobile applications. I enjoy learning new technologies, improving my
+                        programming skills, and creating projects that combine functionality
+                        with creativity. I’m always eager to explore new ideas and grow as a
+                        future web and mobile developer.
+                    </p>
+
+                    <div class="hero__actions">
+                        <a class="btn btn--primary" href="#projects">View my projects</a>
+                        <a class="btn btn--ghost" href="#contact">Contact me</a>
+                    </div>
+
+                    <dl class="facts">
+                        <div>
+                            <dt>Program</dt>
+                            <dd>BS Information Technology, 3rd year</dd>
+                        </div>
+
+                        <div>
+                            <dt>Certification</dt>
+                            <dd>Salesforce</dd>
+                        </div>
+
+                        <div>
+                            <dt>Also</dt>
+                            <dd>IT seminars and hardware troubleshooting</dd>
+                        </div>
+                    </dl>
+                </div>
+
+                <figure class="portrait">
+                    <img src="images/profile.jpg" alt="Portrait of Rianna Joryn L. Tanjuan" width="800" height="1000">
+                </figure>
+            </div>
+        </section>
+
+        <section id="skills" class="section section--alt" aria-labelledby="skills-title">
+            <div class="container">
+                <h2 id="skills-title" class="section__title">Skills</h2>
+
+                <p class="section__desc">
+                    What I've learned through my coursework, projects, and seminars.
+                </p>
+
+                <div class="skills-grid">
+                    <article class="card">
+                        <h3>Systems analysis and design</h3>
+                        <ul class="chips">
+                            <li>Business process analysis</li>
+                            <li>ERD</li>
+                            <li>DFD</li>
+                            <li>System architecture</li>
+                            <li>Flowcharts</li>
+                        </ul>
+                    </article>
+
+                    <article class="card">
+                        <h3>Development</h3>
+                        <ul class="chips">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>SQL databases</li>
+                        </ul>
+                    </article>
+
+                    <article class="card">
+                        <h3>Design tools</h3>
+                        <ul class="chips">
+                            <li>Figma</li>
+                            <li>Canva</li>
+                        </ul>
+                    </article>
+
+                    <article class="card">
+                        <h3>Technical and professional</h3>
+                        <ul class="chips">
+                            <li>Salesforce certification</li>
+                            <li>Computer hardware troubleshooting</li>
+                            <li>IT seminars</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section" aria-labelledby="projects-title">
+            <div class="container">
+                <h2 id="projects-title" class="section__title">Projects</h2>
+
+                <p class="section__desc">
+                    Academic projects where I practiced analysis, design, and development.
+                </p>
+
+                <div class="projects-grid">
+
+                    <article class="card project">
+                        <div class="project__media">
+                            <img class="project__img" src="images/project-pos.jpg" alt="Screenshot or diagram of the POS system for a carwash business" width="800" height="500" loading="lazy">
+                        </div>
+
+                        <h3>POS System for a Carwash Business</h3>
+
+                        <p>
+                            I analyzed the business process, gathered the system requirements, and prepared the
+                            documentation, ERDs, DFDs, system architecture, and flowcharts.
+                        </p>
+
+                        <ul class="chips">
+                            <li>Systems analysis</li>
+                            <li>ERD</li>
+                            <li>DFD</li>
+                            <li>Flowcharts</li>
+                        </ul>
+                    </article>
+
+                    <article class="card project">
+                        <div class="project__media">
+                            <img class="project__img" src="images/project-events.jpg" alt="Logo and user interface design of the Events Management System" width="800" height="500" loading="lazy">
+                        </div>
+
+                        <h3>Events Management System</h3>
+
+                        <p>
+                            Our final project. I designed the system's logo in Canva and created its user
+                            interface in Figma.
+                        </p>
+
+                        <ul class="chips">
+                            <li>Canva</li>
+                            <li>Figma</li>
+                            <li>UI design</li>
+                        </ul>
+                    </article>
+
+                    <article class="card project">
+                        <div class="project__media">
+                            <img class="project__img" src="images/project-record.jpg" alt="Screenshot of the Patient Record Management System" width="800" height="500" loading="lazy">
+                        </div>
+
+                        <h3>Patient Record Management System</h3>
+
+                        <p>
+                            A simple system I developed that strengthened my understanding of system
+                            development and programming concepts.
+                        </p>
+
+                        <ul class="chips">
+                            <li>System development</li>
+                            <li>Programming</li>
+                        </ul>
+                    </article>
+
+                    <article class="card project">
+                        <div class="project__media">
+                            <img class="project__img" src="images/project-product.jpg" alt="Screenshot of the Student Product Management System" width="800" height="500" loading="lazy">
+                        </div>
+
+                        <h3>Product Management System</h3>
+
+                        <p>
+                            Another simple system I developed, which further built my skills in system
+                            development and programming.
+                        </p>
+
+                        <ul class="chips">
+                            <li>System development</li>
+                            <li>Programming</li>
+                        </ul>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="contact" class="site-footer">
+        <div class="container">
+            <h2 class="section__title">Let's connect</h2>
+
+            <p class="section__desc">
+                Want to work together or just say hello? Reach me through any of these.
+            </p>
+
+            <ul class="contact-list">
+                <li>
+                    <a class="contact-link" href="mailto:riannajoryntanjuan@gmail.com">
+                        Email: riannajoryntanjuan@gmail.com
+                    </a>
+                </li>
+
+                <li>
+                    <a class="contact-link" href="tel:09179022007">
+                        Contact Number: 09179022007
+                    </a>
+                </li>
+
+                <li>
+                    <a class="contact-link" href="https://github.com/riannatanjuan" target="_blank" rel="noopener noreferrer">
+                        GitHub: Rianna Joryn Tanjuan
+                    </a>
+                </li>
+            </ul>
+
+            <p class="copyright">
+                &copy; <span id="year">2026</span> Rianna Joryn L. Tanjuan.
+                <a href="#about">Back to top</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
